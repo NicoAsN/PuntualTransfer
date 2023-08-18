@@ -27,6 +27,22 @@
     background-color: #57bfc9;
 }
 
+.caruosel__images {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn__pt {
+    border: none;
+    background-color: #57bfc9;
+    transition: background-color 0.8s;
+}
+
+.btn__pt:hover {
+    background-color: #408e95;
+}
+
 @media (min-width:992px){
     .nav__item {
         transition: background-color 0.8s, border-radius 0.8s, color 0.5s;
@@ -64,5 +80,11 @@
 
     .footer__number__none {
         display: none;
+    }
+
+    .caruosel__images {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
     }
 }
