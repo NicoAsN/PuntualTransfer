@@ -61,18 +61,6 @@
     right: -10%;
 }
 
-.img__style1{
-    height: 250px;
-}
-
-.img__style2{
-    height: 250px;
-}
-
-.img__style3{
-    height: 350px;
-}
-
 .title{
     color: #57bfc9;
     font-weight: 500;
@@ -97,7 +85,20 @@
 
     .card__services__style{
         border: 2px solid #57bfc9;
-        height: 600px;
+        height: 650px;
+        font-size: 0.9rem;
+    }
+
+    .img__style1{
+        height: 250px;
+    }
+    
+    .img__style2{
+        height: 250px;
+    }
+    
+    .img__style3{
+        height: 350px;
     }
 }
 
@@ -136,5 +137,10 @@
     
     .next__style{
         display: none;
+    }
+
+    .card__services__style{
+        border: 2px solid #57bfc9;
+        font-size: 1rem;
     }
 }
