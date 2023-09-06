@@ -1,146 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    width: 100%;
-    height: 120px;
+  width: 100%;
+  height: 120px;
 }
 
-
-.nav__name span{
-    transition: color 0.8s;
+.nav__name span {
+  transition: color 0.8s;
 }
 
 .nav__name:hover span {
-    color: #57bfc9;
+  color: #57bfc9;
 }
 
 .footer__logo {
-    width: 150px; 
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .footer__style {
-    background-color: #57bfc9;
+  background-color: #57bfc9;
 }
 
 .caruosel__images {
-    height: 600px;
-    background-size: cover;
-    background-position: center;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
 }
 
 .btn__pt {
-    border: none;
-    background-color: #57bfc9;
-    transition: background-color 0.8s;
+  border: none;
+  background-color: #57bfc9;
+  transition: background-color 0.8s;
 }
 
 .btn__pt:hover {
-    background-color: #408e95;
+  background-color: #408e95;
 }
 
-.card__style{
-    border: 2px solid #57bfc9;
+.card__style {
+  border: 2px solid #57bfc9;
 }
 
 .btn__style {
-    color: #57bfc9;
+  color: #57bfc9;
 }
 
-.prev__style{
-    position: absolute;
-    left: -10%;
+.prev__style {
+  position: absolute;
+  left: -10%;
 }
 
-.next__style{
-    position: absolute;
-    right: -10%;
+.next__style {
+  position: absolute;
+  right: -10%;
 }
 
-.title{
-    color: #57bfc9;
-    font-weight: 500;
+.title {
+  color: #57bfc9;
+  font-weight: 500;
 }
 
-@media (min-width:992px){
-    .nav__item {
-        transition: background-color 0.8s, border-radius 0.8s, color 0.5s;
-    }
-    
-    .nav__item:hover {
-        background-color: #57bfc9;
-        border-radius: 5px 30px;
-        color: white;
-    }
-
-    .nav__active {
-        background-color: #57bfc9;
-        border-radius: 5px 30px;
-        color: white;
-    }
-
-    .card__services__style{
-        border: 2px solid #57bfc9;
-        height: 650px;
-        font-size: 0.9rem;
-    }
-
-    .img__style1{
-        height: 250px;
-    }
-    
-    .img__style2{
-        height: 250px;
-    }
-    
-    .img__style3{
-        height: 350px;
-    }
+@media screen and (min-width: 992px) {
+  .nav__item {
+    transition: background-color 0.8s, border-radius 0.8s, color 0.5s;
+  }
+  .nav__item:hover {
+    background-color: #57bfc9;
+    border-radius: 5px 30px;
+    color: white;
+  }
+  .nav__active {
+    background-color: #57bfc9;
+    border-radius: 5px 30px;
+    color: white;
+  }
+  .card__services__style {
+    border: 2px solid #57bfc9;
+    height: 650px;
+    font-size: 0.9rem;
+  }
+  .img__style1 {
+    height: 250px;
+  }
+  .img__style2 {
+    height: 250px;
+  }
+  .img__style3 {
+    height: 350px;
+  }
 }
-
-@media (max-width: 991px) {
-    .sidebar {
-        background-color: rgba(87, 191, 201, 0.7);
-        backdrop-filter: blur(2px);
-    }
-
-    .nav__item{
-        font-size: 25px;
-        transition: color 0.8s;
-    }
-
-    .nav__item:hover {
-        color: white;
-    }
-
-    .footer__mail__none {
-        display: none;
-    }
-
-    .footer__number__none {
-        display: none;
-    }
-
-    .caruosel__images {
-        height: 300px;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .prev__style{
-        display: none;
-    }
-    
-    .next__style{
-        display: none;
-    }
-
-    .card__services__style{
-        border: 2px solid #57bfc9;
-        font-size: 1rem;
-    }
-}
+@media screen and (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(87, 191, 201, 0.7);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
+  .nav__item {
+    font-size: 25px;
+    transition: color 0.8s;
+  }
+  .nav__item:hover {
+    color: white;
+  }
+  .footer__mail__none {
+    display: none;
+  }
+  .footer__number__none {
+    display: none;
+  }
+  .caruosel__images {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+  .prev__style {
+    display: none;
+  }
+  .next__style {
+    display: none;
+  }
+  .card__services__style {
+    border: 2px solid #57bfc9;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
