@@ -60,6 +60,115 @@
     </header>
     <!-- navbar fin -->
 
+    <p class="fs-2 w-100 text-center text-uppercase title">Contactanos</p>
+
+    <!--Forms-->
+    <div class="container-fluid">
+        <div class="container p-3">
+            <form class="row g-3 was-validated" novalidate>
+                <div class="col-md-6">
+                    <label for="inputName" class="form-label">Nombre completo</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Ingrese su nombre completo" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Correo electronico</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Ingrese su email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPhoneNumber" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="9 1234 5678" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDateTime" class="form-label">Fecha y hora</label>
+                    <input type="datetime-local" class="form-control" id="inputDateTime" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassenger" class="form-label">Cantidad de pasajeros</label>
+                    <input type="number" class="form-control" id="inputPassenger" placeholder="Ingrese la cantidad de pasajeros" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputBags" class="form-label">Cantidad de maletas</label>
+                    <input type="number" class="form-control" id="inputBags" placeholder="Ingrese la cantidad de maletas" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputOrigin" class="form-label">Origen</label>
+                    <input type="text" class="form-control" id="inputOrigin" placeholder="Ingrese el origen del viaje" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDestiny" class="form-label">Destino</label>
+                    <input type="text" class="form-control" id="inputDestiny" placeholder="Ingrese el destino del viaje" required>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="inputReturn" class="form-label">¿Necesita retorno?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputReturn" id="inputReturn1" required>
+                        <label class="form-check-label" for="inputReturn1">
+                            Si
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputReturn" id="inputReturn2" checked required>
+                        <label class="form-check-label" for="inputReturn2">
+                            No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="inputPet" class="form-label">¿Viaja con su mascota?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputPet" id="inputPet1" required>
+                        <label class="form-check-label" for="inputPet1">
+                            Si
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputPet" id="inputPet2" checked required>
+                        <label class="form-check-label" for="inputPet2">
+                            No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="inputSmall" class="form-label">¿Viaja con un menor a 9 años?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputSmall" id="inputSmall1" required>
+                        <label class="form-check-label" for="inputSmall1">
+                            Si
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputSmall" id="inputSmall2" checked required>
+                        <label class="form-check-label" for="inputSmall2">
+                            No
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="inputPay" class="form-label">¿Forma de pago?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputPay" id="inputPayEfective" required>
+                        <label class="form-check-label" for="inputPayEfective">
+                            Efectivo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inputPay" id="inputPayTransfer" checked required>
+                        <label class="form-check-label" for="inputPayTransfer">
+                            Transferencia
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--Fin forms-->
+
     <!-- footer -->
     <footer class="text-center text-lg-start text-white footer__style">
         <!-- Grid container -->
