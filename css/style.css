@@ -94,6 +94,22 @@
   border-color: white;
 }
 
+.face-contact{
+  height: 100px;
+  color: #1877f2;
+}
+
+.insta-contact{
+  height: 100px;
+  color: #E4405F;
+}
+
+.wsp-contact{
+  height: 100px;
+  color: rgb(37, 211, 102);
+}
+
+
 @media screen and (min-width: 992px) {
   .nav__item {
     transition: background-color 0.8s, border-radius 0.8s, color 0.5s;
